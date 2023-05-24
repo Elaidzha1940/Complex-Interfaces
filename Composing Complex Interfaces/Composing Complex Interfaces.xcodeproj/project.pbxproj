@@ -11,6 +11,7 @@
 		E4D256BD2A1E477800EA7D86 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D256BC2A1E477800EA7D86 /* CategoryHome.swift */; };
 		E4D256BF2A1E477900EA7D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D256BE2A1E477900EA7D86 /* Assets.xcassets */; };
 		E4D256C32A1E477900EA7D86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D256C22A1E477900EA7D86 /* Preview Assets.xcassets */; };
+		E4D256CC2A1E491200EA7D86 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D256CB2A1E491200EA7D86 /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E4D256BE2A1E477900EA7D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D256C02A1E477900EA7D86 /* Composing_Complex_Interfaces.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Composing_Complex_Interfaces.entitlements; sourceTree = "<group>"; };
 		E4D256C22A1E477900EA7D86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4D256CB2A1E491200EA7D86 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +54,13 @@
 		E4D256B92A1E477800EA7D86 /* Composing Complex Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				E4D256CD2A1E497600EA7D86 /* Model */,
 				E4D256BA2A1E477800EA7D86 /* Composing_Complex_InterfacesApp.swift */,
 				E4D256BC2A1E477800EA7D86 /* CategoryHome.swift */,
 				E4D256BE2A1E477900EA7D86 /* Assets.xcassets */,
 				E4D256C02A1E477900EA7D86 /* Composing_Complex_Interfaces.entitlements */,
 				E4D256C12A1E477900EA7D86 /* Preview Content */,
+				E4D256CB2A1E491200EA7D86 /* Landmark.swift */,
 			);
 			path = "Composing Complex Interfaces";
 			sourceTree = "<group>";
@@ -67,6 +71,13 @@
 				E4D256C22A1E477900EA7D86 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4D256CD2A1E497600EA7D86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			files = (
 				E4D256BD2A1E477800EA7D86 /* CategoryHome.swift in Sources */,
 				E4D256BB2A1E477800EA7D86 /* Composing_Complex_InterfacesApp.swift in Sources */,
+				E4D256CC2A1E491200EA7D86 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
