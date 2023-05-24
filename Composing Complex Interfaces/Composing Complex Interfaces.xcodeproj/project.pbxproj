@@ -56,9 +56,9 @@
 		E4D256B92A1E477800EA7D86 /* Composing Complex Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-				E4D256CD2A1E497600EA7D86 /* Model */,
 				E4D256BA2A1E477800EA7D86 /* Composing_Complex_InterfacesApp.swift */,
 				E4D256BC2A1E477800EA7D86 /* CategoryHome.swift */,
+				E4D256CD2A1E497600EA7D86 /* Model */,
 				E4D256BE2A1E477900EA7D86 /* Assets.xcassets */,
 				E4D256C02A1E477900EA7D86 /* Composing_Complex_Interfaces.entitlements */,
 				E4D256C12A1E477900EA7D86 /* Preview Content */,
