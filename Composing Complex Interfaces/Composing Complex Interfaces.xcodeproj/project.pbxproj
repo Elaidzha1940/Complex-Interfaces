@@ -12,6 +12,7 @@
 		E4D256BF2A1E477900EA7D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D256BE2A1E477900EA7D86 /* Assets.xcassets */; };
 		E4D256C32A1E477900EA7D86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D256C22A1E477900EA7D86 /* Preview Assets.xcassets */; };
 		E4D256CC2A1E491200EA7D86 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D256CB2A1E491200EA7D86 /* Landmark.swift */; };
+		E4D256CF2A1E499400EA7D86 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D256CE2A1E499400EA7D86 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E4D256C02A1E477900EA7D86 /* Composing_Complex_Interfaces.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Composing_Complex_Interfaces.entitlements; sourceTree = "<group>"; };
 		E4D256C22A1E477900EA7D86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4D256CB2A1E491200EA7D86 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		E4D256CE2A1E499400EA7D86 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		E4D256CD2A1E497600EA7D86 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E4D256CE2A1E499400EA7D86 /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4D256BD2A1E477800EA7D86 /* CategoryHome.swift in Sources */,
+				E4D256CF2A1E499400EA7D86 /* ModelData.swift in Sources */,
 				E4D256BB2A1E477800EA7D86 /* Composing_Complex_InterfacesApp.swift in Sources */,
 				E4D256CC2A1E491200EA7D86 /* Landmark.swift in Sources */,
 			);
