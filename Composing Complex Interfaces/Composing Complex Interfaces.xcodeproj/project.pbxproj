@@ -13,6 +13,9 @@
 		E4D256C32A1E477900EA7D86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D256C22A1E477900EA7D86 /* Preview Assets.xcassets */; };
 		E4D256CC2A1E491200EA7D86 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D256CB2A1E491200EA7D86 /* Landmark.swift */; };
 		E4D256CF2A1E499400EA7D86 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D256CE2A1E499400EA7D86 /* ModelData.swift */; };
+		E4D256D12A1E4ABE00EA7D86 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D256D02A1E4ABE00EA7D86 /* CategoryRow.swift */; };
+		E4D256D32A1E585300EA7D86 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D256D22A1E585300EA7D86 /* CategoryItem.swift */; };
+		E4D256D52A1E58B000EA7D86 /* Head.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D256D42A1E58B000EA7D86 /* Head.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E4D256C22A1E477900EA7D86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4D256CB2A1E491200EA7D86 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		E4D256CE2A1E499400EA7D86 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		E4D256D02A1E4ABE00EA7D86 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		E4D256D22A1E585300EA7D86 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		E4D256D42A1E58B000EA7D86 /* Head.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Head.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				E4D256C02A1E477900EA7D86 /* Composing_Complex_Interfaces.entitlements */,
 				E4D256C12A1E477900EA7D86 /* Preview Content */,
 				E4D256CB2A1E491200EA7D86 /* Landmark.swift */,
+				E4D256D02A1E4ABE00EA7D86 /* CategoryRow.swift */,
+				E4D256D22A1E585300EA7D86 /* CategoryItem.swift */,
+				E4D256D42A1E58B000EA7D86 /* Head.swift */,
 			);
 			path = "Composing Complex Interfaces";
 			sourceTree = "<group>";
@@ -153,9 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D256D52A1E58B000EA7D86 /* Head.swift in Sources */,
 				E4D256BD2A1E477800EA7D86 /* CategoryHome.swift in Sources */,
 				E4D256CF2A1E499400EA7D86 /* ModelData.swift in Sources */,
+				E4D256D12A1E4ABE00EA7D86 /* CategoryRow.swift in Sources */,
 				E4D256BB2A1E477800EA7D86 /* Composing_Complex_InterfacesApp.swift in Sources */,
+				E4D256D32A1E585300EA7D86 /* CategoryItem.swift in Sources */,
 				E4D256CC2A1E491200EA7D86 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
