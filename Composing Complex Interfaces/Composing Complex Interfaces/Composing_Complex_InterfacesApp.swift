@@ -11,7 +11,7 @@ import SwiftUI
 struct Composing_Complex_InterfacesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CategoryHome()
         }
     }
 }

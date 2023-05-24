@@ -5,22 +5,21 @@
 //  Created by: Elaidzha Shchukin
 //  Date: 24.05.2023
 //
-//
+//  */
 
 import SwiftUI
 
-struct ContentView: View {
+struct CategoryHome: View {
     var body: some View {
-        
-        VStack {
-            Text("Hello, world!")
-                .foregroundColor(.purple)
+        NavigationView {
+            Text("Hello, World!")
+                .navigationTitle("Featured")
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CategoryHome()
     }
 }
